@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 71px;
+    align-items: center;
+    background-color: #0779E4;
+    color: white;
+}
+
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.text-white {
+    color: white;
+}
+
+.hero {
+    background-image: url('/assets/images/hero-bg.png');
+    height: 100vh;
+    /* background-position: center; */
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.title {
+    font-size: 60px;
+    
+}
+
+
+.subtitle {
+    font-size: 16px;
+}
+
+.hero-info {
+    width: 50%;
+    padding-top: 48px;
+    /* margin-top: 50px; */
+}
